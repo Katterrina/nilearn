@@ -289,6 +289,9 @@ def view_connectome(adjacency_matrix, node_coords, edge_threshold=None,
     title_fontsize : int, optional
         Fontsize of the title. Default=25.
 
+    marker_labels : list of str, shape=(n_nodes), optional
+        Labels for the markers: list of strings
+
     Returns
     -------
     ConnectomeView : plot of the connectome.
